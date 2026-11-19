@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="680" viewBox="0 0 680 348" font-family="-apple-system, Segoe UI, Roboto, sans-serif">
+<rect width="680" height="348" fill="none"/>
+<text x="20" y="26" font-size="16" font-weight="500" fill="#2b2a27">Router test station — 6 slots</text>
+<text x="20" y="48" font-size="12" fill="#73726c">2 testing · 1 pass · 1 fail · 1 waiting on you · 1 free · colour = status</text>
+
+<g font-size="12">
+<rect x="20" y="68" width="200" height="118" rx="12" fill="#E6F1FB" stroke="#185FA5" stroke-width="0.5"/>
+<text x="34" y="92" font-size="13" font-weight="500" fill="#042C53">Slot 1</text>
+<text x="206" y="91" text-anchor="end" font-size="11" fill="#0C447C">Testing</text>
+<text x="34" y="114" font-size="11" fill="#73726c">Condor · IMEI …8891</text>
+<text x="34" y="138" fill="#042C53">Wi-Fi split</text>
+<rect x="34" y="148" width="172" height="5" rx="2.5" fill="#ffffff"/>
+<rect x="34" y="148" width="107" height="5" rx="2.5" fill="#378ADD"/>
+<text x="34" y="172" font-size="11" fill="#73726c">step 9 / 14 · 2m 10s</text>
+
+<rect x="240" y="68" width="200" height="118" rx="12" fill="#EAF3DE" stroke="#3B6D11" stroke-width="0.5"/>
+<text x="254" y="92" font-size="13" font-weight="500" fill="#173404">Slot 2</text>
+<text x="426" y="91" text-anchor="end" font-size="11" fill="#27500A">Pass</text>
+<text x="254" y="114" font-size="11" fill="#73726c">Vantiva · IMEI …4420</text>
+<text x="254" y="138" fill="#173404">Done — all checks</text>
+<rect x="254" y="148" width="172" height="5" rx="2.5" fill="#ffffff"/>
+<rect x="254" y="148" width="172" height="5" rx="2.5" fill="#639922"/>
+<text x="254" y="172" font-size="11" fill="#73726c">DATA-WIPE pass · 2m 50s</text>
+
+<rect x="460" y="68" width="200" height="118" rx="12" fill="#FCEBEB" stroke="#A32D2D" stroke-width="0.5"/>
+<text x="474" y="92" font-size="13" font-weight="500" fill="#501313">Slot 3</text>
+<text x="646" y="91" text-anchor="end" font-size="11" fill="#791F1F">Fail</text>
+<text x="474" y="114" font-size="11" fill="#73726c">Condor · IMEI —</text>
+<text x="474" y="138" fill="#501313">IMEI — Airplane Mode</text>
+<rect x="474" y="148" width="172" height="5" rx="2.5" fill="#ffffff"/>
+<rect x="474" y="148" width="172" height="5" rx="2.5" fill="#E24B4A"/>
+<text x="474" y="172" font-size="11" fill="#73726c">radio off · wiped · 33s</text>
+
+<rect x="20" y="200" width="200" height="118" rx="12" fill="#FAEEDA" stroke="#BA7517" stroke-width="2"/>
+<text x="34" y="224" font-size="13" font-weight="500" fill="#412402">Slot 4</text>
+<text x="206" y="223" text-anchor="end" font-size="11" fill="#633806">Waiting on you</text>
+<text x="34" y="246" font-size="11" fill="#73726c">FastMile · IMEI …7731</text>
+<text x="34" y="268" fill="#412402">Does the unit look right?</text>
+<rect x="34" y="280" width="80" height="26" rx="6" fill="#ffffff" stroke="#854F0B" stroke-width="0.5"/>
+<text x="74" y="297" text-anchor="middle" fill="#633806">Pass</text>
+<rect x="124" y="280" width="80" height="26" rx="6" fill="#ffffff" stroke="#854F0B" stroke-width="0.5"/>
+<text x="164" y="297" text-anchor="middle" fill="#633806">Fail</text>
+
+<rect x="240" y="200" width="200" height="118" rx="12" fill="#E6F1FB" stroke="#185FA5" stroke-width="0.5"/>
+<text x="254" y="224" font-size="13" font-weight="500" fill="#042C53">Slot 5</text>
+<text x="426" y="223" text-anchor="end" font-size="11" fill="#0C447C">Testing</text>
+<text x="254" y="246" font-size="11" fill="#73726c">Vantiva · IMEI …1180</text>
+<text x="254" y="270" fill="#042C53">Login</text>
+<rect x="254" y="280" width="172" height="5" rx="2.5" fill="#ffffff"/>
+<rect x="254" y="280" width="24" height="5" rx="2.5" fill="#378ADD"/>
+<text x="254" y="304" font-size="11" fill="#73726c">step 2 / 14 · 0m 20s</text>
+
+<rect x="460" y="200" width="200" height="118" rx="12" fill="#F1EFE8" stroke="#888780" stroke-width="0.5" stroke-dasharray="4 4"/>
+<text x="560" y="252" text-anchor="middle" font-size="13" font-weight="500" fill="#5F5E5A">Slot 6 — free</text>
+<text x="560" y="274" text-anchor="middle" font-size="11" fill="#888780">scan a label here</text>
+</g>
+</svg>
