@@ -5,6 +5,26 @@ the handoff.
 
 ## Issues
 
+### Cable link drop mid-test — SIM "none", Wi-Fi FAIL "not found"  · fixed (not bench-tested)
+- **See:** 2026-11-19 15:23, unit ...0D03: SIM all "none", Wi-Fi 2.4/5/6 FAIL
+  "not found" after 2 min each. Same unit passed at 15:45.
+- **Cause:** the PC's cable link to the router dropped 3 times right after the
+  IMEI (kern.log); the station read a dead page. Link came up Half Duplex once:
+  check the cable/port.
+- **Station:** cable watched login->reset; a drop -> wait, sign in again, test
+  again; second drop -> NOT TESTED. Commit 49e689e.
+
+### Wi-Fi name after reset FAIL with no evidence  · open (evidence added)
+- **See:** ...062B (2026-11-19 15:57), ...05CC (2026-11-16 22:09): FAIL after a
+  2-min wait, reset looked real.
+- **Station:** logs the name read (last 4), tells "no name" apart (reopens
+  Overview), saves the Overview page on FAIL. Commit 49e689e. The reader takes
+  the first text in the Wi-Fi card: a log `unit ... GHz` = misread.
+
+### Slow ping after reset — DHCP  · fixed (not bench-tested)
+- **Station:** fixed address (.250) on profile routertest-static for each unit,
+  DHCP profile back after it; `--dhcp` turns it off; Linux only. Commit 49e689e.
+
 ### IMEI "N/A" — Cellular Status read too soon  · fixed
 - **See:** IMEI N/A right after login.
 - **Cause:** the Cellular Status was read before the modem filled it in.
